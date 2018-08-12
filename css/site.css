@@ -1,5 +1,6 @@
 body {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    color:#5D737E;
 }
 
 .container-fluid {
@@ -9,95 +10,147 @@ body {
     margin-left: auto;
 }
 
-.hetco_title {
-    color:white;
-    font-size:3em;
-}
-
-.hetco_title span {
-    background-color:#FFD600;
-    padding:10px;
-}
-
-.hetco_sub {
-    margin-top:20px;
-}
-
-.hetco_sub span {
-    font-size:1.4em;
-    background-color:#FFFFFF;
-    padding:10px;
-}
-
 .hetco-nav a {
     color:#5D737E;
+    font-size:2em;
 }
 
-#company {
-    height:600px;
+.navbar-fixed-top .navbar-toggle .icon-bar {
+    background-color: #5D737E !important
 }
 
-#description {
-    padding:20px;
-    text-align: justify;
-    font-size:1.1em;
-    color:#666;
+#myNavbar .navbar-right {
+    margin-right:10px;
+    margin-left:10px;
 }
 
-#topline_getintouch {
-    padding: 10px;
-    font-size: 18px;
-    line-height: 1.8;
-    box-shadow: none;
-    border-radius: 0;
+.navbar-brand {
+    margin-left:10px;
+}
+
+#myNavbar {
+    min-width:150px;
+}
+
+.navbar-toggle {
+    border:1px;
     border-style:solid;
-    border-width:0px;
-    background-color:#FFD600;
+    border-color:#5D737E;
+}
+
+#carousel {
+    margin-right:-15px;
+    margin-left:-15px;
+    margin-top:30px;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important
+}
+
+.slide-image {
+    min-width:100%;
+    min-height:450px;
+    max-height:550px;
+    -o-object-fit: cover;
+    object-fit: cover; 
+}
+
+h1 {
+    color:#5D737E;
+    font-weight:150;
+}
+
+.navbar {
+    background-color:white;
+}
+
+#recentprojectsdescription {
+    text-align:center;
+}
+
+.project-image {
+    width:100%;
+    height:auto;
+}
+
+h3 {
+    color:#5D737E;
+    font-weight:150;
+}
+
+.standardtext {
+    font-size:1.4em;
+    color:#5D737E;
+    font-weight:150;
+
+}
+
+#recentprojectsdescription {
+    margin-top:60px;
+    margin-bottom:40px;
+}
+
+.projectsnippet {
+    padding-left:40px;
+    padding-right:40px;
+}
+
+.testimonial {
+    text-align:center;
+    margin-top:40px;
+}
+
+.largequote {
+    font-style:italic;
+    font-size:2em;
+    color:#5D737E;
+    font-family: 'Cardo', serif;
+    margin-top:20px;
+    max-width:800px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+.author {
+    font-size:1.2em;
+    padding-top:20px;
+}
+
+.linebreak {
+    border-top-style:solid;
+    border-top-color:#5D737E;
+    border-top-width:1px;
+    padding-top:40px;
+}
+
+.footer {
+    background-color:#5D737E;
+    color:#ffffff;
+    margin-left:-15px;
+    margin-right:-15px;
+}
+
+#contactsection {
+    margin-top:40px;
+    padding-top:20px;
+}
+
+.contact {
+    text-align:center;
+}
+
+.contact h1 {
     color:#ffffff;
 }
 
-#contact {
-    background-color:#FFD600;
-    height:1000px;
+#copyright {
+    margin-top:20px;
+    text-align:center;
 }
 
-#profile1 {
-    background-color:#fff;
+.contactlink a {
+    font-size:2em;
+    margin-top:20px;
+    color:#ffffff;
 }
-
-#profile2 {
-    background-color:#000;
-}
-
-#profile1_pic {
-    background: url(../images/shruti_profile.jpg);
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position: center; 
-    height:300px;
-}
-
-#profile2_pic {
-    background: url(../images/simon_profile.jpg);
-    background-size: auto 300px;
-    background-repeat: no-repeat;
-    background-position: center; 
-    height:300px;
-}
-
-#profile1_description {
-    color:#666;
-    height:300px;
-}
-
-#profile2_description {
-    color:#fff;
-    height:300px;
-}
-
-.profile_description {
-    font-size:1em;
-    padding:40px;
-    text-align: justify;
-}
-

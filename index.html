@@ -6,10 +6,13 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="AcO3sToJF0X1AgkmkIPLLoBDRicVqntT6bBjCXBZhs0" />
         <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/site.css"/>
         <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript">
+
             var _gaq = _gaq || [];
             _gaq.push(['_setAccount', 'UA-46399763-1']);
             _gaq.push(['_trackPageview']);
@@ -22,44 +25,110 @@
         </script>           
     </head>
     <body>
-        <nav class="navbar hetco-nav">
+        <nav class="navbar hetco-nav navbar-fixed-top">
           <div class="container-fluid">
-            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span> 
+              </button>            
               <a class="navbar-brand" href="#">Hetco Design</a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-              <li><a href="#contact">Contact</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="myNavbar">
+                <ul class="nav navbar-nav navbar-right">
+                  <li><a href="#contact">Projects</a></li>
+                  <li><a href="#contact">About</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
           </div>
         </nav>        
         <div class="container-fluid">
-            <div class="row">
-                <div id="company" class="col-md-5">
-                    <div class="hetco_title text-center"><span>Hetco Design</span></div>
-                    <div class="hetco_sub text-center"><span>data informed human centred design</span></div>
-                    <div id="description" class="text-center"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus posuere, enim quis pharetra feugiat, orci massa sodales justo, sodales condimentum est quam in nunc. Mauris congue felis et mauris sollicitudin mollis. Phasellus vitae posuere diam, eu finibus arcu. Duis aliquet justo orci, vitae mattis neque suscipit fringilla. Phasellus vel magna sed felis dapibus convallis eget at arcu. Sed eget luctus nisl. Integer ultricies mauris eget est tincidunt pretium. Donec vitae eleifend odio. Donec vehicula luctus accumsan. Vestibulum egestas sollicitudin maximus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae</p></div>
-                    <div id="landingcontact" class="text-center"><a href="#contact" id="topline_getintouch">Get in Touch</a></div>
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <!-- Carousel indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#myCarousel" data-slide-to="1"></li>
+                    <li data-target="#myCarousel" data-slide-to="2"></li>
+                </ol>   
+                <!-- Wrapper for carousel items -->
+                <div class="carousel-inner">
+                    <div id="slide1" class="item active">
+                        <img src="images/placeholder-red.png" alt="First Slide" class="slide-image">
+                        <div class="carousel-caption">
+                            <p>Text for the 1st slide</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/placeholder-green.png" alt="Second Slide" class="slide-image">
+                        <div class="carousel-caption">
+                            <p>Text for the 2nd slide</p>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <img src="images/placeholder-yellow.png" alt="Third Slide" class="slide-image">
+                        <div class="carousel-caption">
+                            <p>Text for the 3rd slide</p>
+                        </div>
+                    </div>
                 </div>
-                <div id="profile" class="col-md-7">
-                    <div id="profile1" class="row">
-                        <div id="profile1_pic" class="col-sm-4"></div>
-                        <div id="profile1_description" class="col-sm-8 profile_description">
-                            <p>Proin sed sem pretium, lobortis sapien vel, placerat enim. Etiam sollicitudin nibh eu leo aliquet, non tempor erat fermentum. Donec dui orci, aliquet eget tellus eu, commodo volutpat ligula. Ut venenatis erat sit amet ultricies volutpat. Etiam at nulla nisl. Phasellus tempor blandit arcu, in semper nisi luctus et. Duis suscipit, arcu vel vestibulum pulvinar, mauris risus imperdiet arcu, eu dictum quam sapien a ex. Suspendisse lacinia libero eu enim venenatis vehicula.</p>
-                        </div>
+                <!-- Carousel controls -->
+                <a class="carousel-control left" href="#carousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                </a>
+                <a class="carousel-control right" href="#carousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                </a>
+            </div>
+            <div id="recentprojects">
+                <div class="row">
+                    <div id="recentprojectsdescription" class="col-md-12 linebreak">
+                        <h1>Recent Projects</h1>
                     </div>
-                    <div id="profile2" class="row">
-                        <div id="profile2_pic" class="col-sm-4"></div>
-                        <div id="profile2_description" class="col-sm-8 profile_description">
-                            <p>Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Cras vel scelerisque lectus. Vestibulum rutrum congue lobortis. Donec ac dictum ligula. Pellentesque eleifend, ligula ac suscipit auctor, mauris magna lobortis enim, nec placerat nisl erat non justo. Morbi gravida felis risus, consequat congue sem efficitur fringilla. Aliquam erat volutpat. Nunc luctus non sem ut rhoncus. Mauris at justo at quam scelerisque vehicula. Pellentesque malesuada, lorem sit amet sollicitudin porta, odio urna pulvinar ipsum, fermentum cursus nisl est in urna.</p>
-                        </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 projectsnippet">
+                        <img src="images/placeholder_600x600.png" class="project-image">
+                        <h3>Project 1</h3>
+                        <p class="standardtext">Project Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>
                     </div>
+                    <div class="col-md-4 projectsnippet">
+                        <img src="images/placeholder_600x600.png" class="project-image">
+                        <h3>Project 2</h3>
+                        <p class="standardtext">Project Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>                        
+                    </div>
+                    <div class="col-md-4 projectsnippet">
+                        <img src="images/placeholder_600x600.png" class="project-image">
+                        <h3>Project 3</h3>
+                        <p class="standardtext">Project Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        </p>                        
+                    </div>                                        
                 </div>                
             </div>
             <div class="row">
-                <div id="contact" class="col-md-12 text-center">
-                    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdd8yeHzqmgZf7xgSLWqqih4_iVVuLvYNWiUmfyct9FypssfA/viewform?embedded=true" width="760" height="1000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
-                </div>                                                 
-            </div>            
+                <div class="col-md-12 testimonial linebreak">
+                    <p class="largequote">'In my opinion, their designs, prototypes and recommendations, alongside what we have learned from their approach have left us in a really strong position for the next phase of our project.'</p>
+
+                    <p class="author">Pete Masters, Medical Innovation Lead, Manson Unit</p>
+                </div>
+            </div>
+            <div class="footer">
+                <div id="contactsection" class="row">
+                    <div class="col-md-6 contact">
+                        <h1>Contact</h1>
+                        <p class="contactlink"><a href="mailto:hello@hetco.io" target="_blank">hello@hetco.io</a></p>
+                    </div>
+                    <div class="col-md-6 contact">
+                        <h1>Follow Us</h1>
+                        <p class="contactlink"><a href="https://twitter.com/hetcodesign" target="_blank">@hetcodesign</a></p>
+                    </div>                
+                </div>
+                <div id="copyright" class="row">
+                    <p>© Hetco Design 2018</p>
+                </div>
+            </div>                                      
         </div>
         <script src="js/site.js"></script>
     </body>
