@@ -5,8 +5,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="AcO3sToJF0X1AgkmkIPLLoBDRicVqntT6bBjCXBZhs0" />
-        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Cardo" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="css/site.css"/>
         <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
@@ -32,18 +31,23 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span> 
               </button>            
-              <a class="navbar-brand" href="#">Hetco Design</a>
+              <a class="navbar-brand" href="/">Hetco Design</a>
             </div>
             <div class="collapse navbar-collapse" id="myNavbar">
                 <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#contact">Projects</a></li>
-                  <li><a href="#contact">About</a></li>
-                  <li><a href="#contact">Contact</a></li>
+                  <li><a href="#recentprojects">Projects</a></li>
+                  <li><a href="/About">About</a></li>
+                  <li><a href="/Contact">Contact</a></li>
                 </ul>
             </div>
           </div>
         </nav>        
         <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <p class="standardtext hetcodescription">We practise data-informed human-centred design to create meaningful products and services for&nbsp;organisations.</p>
+                </div>
+            </div>        
             <div id="carousel" class="carousel slide" data-ride="carousel">
                 <!-- Carousel indicators -->
                 <ol class="carousel-indicators">
@@ -54,21 +58,33 @@
                 <!-- Wrapper for carousel items -->
                 <div class="carousel-inner">
                     <div id="slide1" class="item active">
-                        <img src="images/placeholder-red.png" alt="First Slide" class="slide-image">
+                        <img src="images/carousel/msf_2.jpg" alt="First Slide" class="slide-image">
                         <div class="carousel-caption">
-                            <p>Text for the 1st slide</p>
+                            <div class="caption-container">
+                                <p class="carousel-title">MSF Makes</p>
+                                <p class="carousel-text standardtext">Designing a digital platform for cross-continental innovation for Médecins Sans Frontières</p>
+                                <div class="readmorelink"><p><a href="/project/balance">Read more</p></a></div>
+                            </div>                        
                         </div>
                     </div>
                     <div class="item">
-                        <img src="images/placeholder-green.png" alt="Second Slide" class="slide-image">
+                        <img src="images/carousel/proteus.jpg" alt="Second Slide" class="slide-image">
                         <div class="carousel-caption">
-                            <p>Text for the 2nd slide</p>
-                        </div>
-                    </div>
+                            <div class="caption-container">
+                                <p class="carousel-title">The Proteus Experience for Hep-C Patients</p>
+                                <p class="carousel-text">Designing an innovative patient-centred experience for a health tech pioneer</p>
+                                <div class="readmorelink"><p><a href="/project/balance">Read more</p></a></div>
+                            </div>
+                        </div> 
+                    </div>                   
                     <div class="item">
-                        <img src="images/placeholder-yellow.png" alt="Third Slide" class="slide-image">
+                        <img src="images/carousel/balance.jpg" alt="Third Slide" class="slide-image">
                         <div class="carousel-caption">
-                            <p>Text for the 3rd slide</p>
+                            <div class="caption-container">
+                                <p class="carousel-title">Balance App and Wearable</p>
+                                <p class="carousel-text">World’s first wearable and app for measuring body balance</p>
+                                <div class="readmorelink"><p><a href="/project/balance">Read more</p></a></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -82,50 +98,56 @@
             </div>
             <div id="recentprojects">
                 <div class="row">
-                    <div id="recentprojectsdescription" class="col-md-12 linebreak">
+                    <div id="recentprojectsdescription" class="col-md-12">
                         <h1>Recent Projects</h1>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 projectsnippet">
-                        <img src="images/placeholder_600x600.png" class="project-image">
-                        <h3>Project 1</h3>
-                        <p class="standardtext">Project Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        <img src="images/recentthumbs/msf.jpg" class="project-image">
+                        <h3>MSF Makes</h3>
+                        <p class="standardtext partner">Médecins Sans Frontières</p>
+                        <p class="standardtext projectdesc">A website where field teams with ideas can order rapid prototyping kits for in-field experimentation and feedback, paired with MSF Spots - a card game for de-briefings
                         </p>
+                        <div class="readmorelink"><p><a href="/project/balance">Read more</p></a></div>
                     </div>
                     <div class="col-md-4 projectsnippet">
-                        <img src="images/placeholder_600x600.png" class="project-image">
-                        <h3>Project 2</h3>
-                        <p class="standardtext">Project Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>                        
+                        <img src="images/recentthumbs/proteus.jpg" class="project-image">
+                        <h3>The Proteus Experience for Hep-C Patients</h3>
+                        <p class="standardtext partner">Proteus Digital Health</p>
+                        <p class="standardtext projectdesc">A comprehensive patient experience including rituals for pill and patch-wear, data-informed features for the Discover app and algorithmic outreach tools for customer support for three Hep C user segments 
+                        </p>
+                        <div class="readmorelink"><p><a href="/project/balance">Read more</p></a></div>                        
                     </div>
                     <div class="col-md-4 projectsnippet">
-                        <img src="images/placeholder_600x600.png" class="project-image">
-                        <h3>Project 3</h3>
-                        <p class="standardtext">Project Description. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                        </p>                        
+                        <img src="images/recentthumbs/balance.jpg" class="project-image">
+                        <h3>Balance</h3>
+                        <p class="standardtext partner">Stannah Stairlifts</p>
+                        <p class="standardtext projectdesc">World’s first wearable and app for measuring body balance
+                        </p>
+                        <div class="readmorelink"><p><a href="/project/balance">Read more</p></a></div>                        
                     </div>                                        
                 </div>                
             </div>
             <div class="row">
                 <div class="col-md-12 testimonial linebreak">
-                    <p class="largequote">'In my opinion, their designs, prototypes and recommendations, alongside what we have learned from their approach have left us in a really strong position for the next phase of our project.'</p>
+                    <p class="largequote">'...their designs, prototypes and recommendations, alongside what we have learned from their approach have left us in a really strong position for the next phase of our project.'</p>
 
                     <p class="author">Pete Masters, Medical Innovation Lead, Manson Unit</p>
                 </div>
             </div>
-            <div class="footer">
-                <div id="contactsection" class="row">
+            <div class="footer row">
+                <div id="contactsection">
                     <div class="col-md-6 contact">
                         <h1>Contact</h1>
-                        <p class="contactlink"><a href="mailto:hello@hetco.io" target="_blank">hello@hetco.io</a></p>
+                        <p class="contactlink"><a href="mailto:shruti@hetco.io" target="_blank">shruti@hetco.io</a></p>
                     </div>
                     <div class="col-md-6 contact">
                         <h1>Follow Us</h1>
                         <p class="contactlink"><a href="https://twitter.com/hetcodesign" target="_blank">@hetcodesign</a></p>
                     </div>                
                 </div>
-                <div id="copyright" class="row">
+                <div id="copyright">
                     <p>© Hetco Design 2018</p>
                 </div>
             </div>                                      
