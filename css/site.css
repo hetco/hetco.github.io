@@ -3,11 +3,10 @@ body {
     color:#000;  
 }
 
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
+img {
+    display: block;
+    margin: 0 auto;
+    margin-top:40px;
 }
 
 .hetco-nav a {
