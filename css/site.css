@@ -23,6 +23,10 @@ img {
     margin-left:10px;
 }
 
+#myNavbar {
+    max-width:100%;
+}
+
 .navbar-brand {
     margin-left:10px;
 }
@@ -40,6 +44,8 @@ img {
 .footer {
     background-color:#000;
     color:#ffffff;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 #contactsection {
@@ -137,12 +143,11 @@ h3 a:active {
     padding-top:40px;
 }
 
-/*landing page */
-
-#carousel {
-    margin-right:-15px;
-    margin-left:-15px;
+.navbar-toggle {
+    margin-right:25px;
 }
+
+/*landing page */
 
 .carousel-control.left, .carousel-control.right {
     background-image: none !important
@@ -171,8 +176,8 @@ h3 a:active {
 }
 
 .projectsnippet {
-    padding-left:40px;
-    padding-right:40px;
+    padding-left:20px;
+    padding-right:20px;
     margin-bottom:20px;
 }
 
@@ -199,7 +204,6 @@ h3 a:active {
 }
 
 .hetcodescription {
-    margin-left:27px;
     margin-top:60px;
     text-align:left;
 }
@@ -217,8 +221,8 @@ h3 a:active {
 }
 
 #carousel {
-    margin-left:27px;
-    margin-right:27px;
+    margin-left:0px;
+    margin-right:0px;
 }
 
 .carousel-caption {
