@@ -328,6 +328,15 @@ h3 a:active {
     background-position: center center; 
 }
 
+#projectwellcome {
+    background-image:url('../../images/hero/wellcome.jpg');
+    margin-left:17px;
+    margin-right:17px;
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
 .projecttitletext {
     font-size:3em;
     background-color:#fff;
@@ -433,4 +442,13 @@ h3 a:active {
     width:100%;
     margin-top:20px;
     margin-bottom:40px;
+}
+
+#wellcomequote {
+    font-size:1.5em;
+    margin-top:0px;
+}
+
+#wellcome_end {
+    margin-bottom:50px;
 }
