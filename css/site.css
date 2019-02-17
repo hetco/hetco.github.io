@@ -56,6 +56,7 @@ a:hover {
 
 /* header and nav */
 
+
 @media (min-width: 768px){
     .navbar-nav{
         float:none;
@@ -93,6 +94,11 @@ a:hover {
     color:#000;
     font-size:1.2em;
     text-decoration:  none;
+    
+}
+
+.navbar {
+	margin-bottom:0px;
 }
 
 @media (max-width: 768px) {
@@ -134,6 +140,12 @@ a:hover {
 
 /* front page */
 
+.tag {
+	font-size:1.4em;
+	margin-left:-15px;
+	margin-top:20px;
+}
+
 #front-page-splash{
 	background-color:#5b76ae;
 	margin-left:-15px;
@@ -143,24 +155,30 @@ a:hover {
 	margin-bottom:40px;
 }
 
+#front-page-splash a{
+	text-decoration: none;
+}
+
 @media (min-width: 992px){
 	#front-col-1 {
 		background: linear-gradient(to right,#eda347,#dd6383 45%,#8e4b8d);
 		min-height:100px;
 		padding:8px;
-
+		padding-top:16px;
 	}
 
 	#front-col-2 {
 		background: linear-gradient(to right,#8e4b8d,#6e4092 21%,#1c7ebd 81%, #379ab3);
 		min-height:100px;
 		padding:8px;
+		padding-top:16px;
 	}
 
 	#front-col-3 {
 		background: linear-gradient(to right,#379ab3,#42b38a 58%,#dcdd58);
 		min-height:100px;
 		padding:8px;
+		padding-top:16px;
 	}
 }
 
@@ -168,19 +186,21 @@ a:hover {
 	#front-col-1 {
 		background: linear-gradient(to bottom,#eda347,#dd6383 45%,#8e4b8d);
 		min-height:100px;
-		padding:20px;
+		padding:16px;
+		padding-bottom:0px;
 	}
 
 	#front-col-2 {
 		background: linear-gradient(to bottom,#8e4b8d,#6e4092 21%,#1c7ebd 81%, #379ab3);
 		min-height:100px;
-		padding:20px;
+		padding:16px;
+		padding-bottom:0px;
 	}
 
 	#front-col-3 {
 		background: linear-gradient(to bottom,#379ab3,#42b38a 58%,#dcdd58);
 		min-height:100px;
-		padding:20px;
+		padding:16px;
 	}
 }
 
@@ -201,6 +221,7 @@ a:hover {
 	position:absolute;
 	top: 50%;
 	left: 50%;
+	padding:5px;
 	transform: translate(-50%, -50%);
     background-color:#fff;
 }
@@ -296,6 +317,7 @@ a:hover {
 
 .projectimage {
 	width:100%;
+	padding-bottom:20px;
 }
 
 .projectimagecaption {
@@ -313,7 +335,70 @@ a:hover {
 /* individual projects */
 
 #projectwellcome {
-    background-image:url('../images/projects/wellcome/hero.jpg');
+    background-image:url('../images/projects/wellcome/cover2.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectmsfmakes {
+    background-image:url('../images/projects/msfmakes/r_DSC03821_4.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectbalance {
+    background-image:url('../images/projects/balance/BalanceImage2.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectproteus {
+    background-image:url('../images/projects/proteus/Scenario.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectgubank {
+    background-image:url('../images/projects/gubank/Product_composition.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectmaps {
+    background-image:url('../images/projects/mapsmissing/1_1fE-P0gYq6QC7KAncakZOg.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectwhowhat {
+    background-image:url('../images/projects/whowhat/whowhat2.png');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projecthappymamas {
+    background-image:url('../images/projects/happymamas/r_DSC04045.JPG');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectinflatable {
+    background-image:url('../images/projects/inflatablescaffolding/Untitled-1.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
+
+#projectmednav {
+    background-image:url('../images/projects/mednav/IMG_2345.jpg');
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center; 
