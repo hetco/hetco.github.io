@@ -138,6 +138,11 @@ a:hover {
     padding-right:20px;
 }
 
+.footer a {
+    color:#ffffff;
+    text-decoration: none;
+}
+
 /* front page */
 
 .tag {
@@ -243,6 +248,10 @@ a:hover {
 	font-size:1.2em;
 	margin-top:20px;
 	font-weight: bold;
+}
+
+.project-card-title a {
+	text-decoration: none;
 }
 
 .project-card-subtitle {
@@ -370,7 +379,7 @@ a:hover {
 }
 
 #projectmaps {
-    background-image:url('../images/projects/mapsmissing/1_1fE-P0gYq6QC7KAncakZOg.png');
+    background-image:url('../images/projects/mapsmissing/1_1fE-P0gYq6QC7KAncakZOg.jpg');
     background-size:     cover;
     background-repeat:   no-repeat;
     background-position: center center; 
