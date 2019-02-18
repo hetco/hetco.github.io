@@ -6,8 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta name="google-site-verification" content="AcO3sToJF0X1AgkmkIPLLoBDRicVqntT6bBjCXBZhs0" />
         <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
-        <link rel="stylesheet" href="../../css/bootstrap.min.css">
-        <link rel="stylesheet" type="text/css" href="../../css/site.css"/>
+        <link rel="stylesheet" href="/css/bootstrap.min.css">
+        <link rel="stylesheet" type="text/css" href="/css/site.css"/>
         <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
         <script type="text/javascript">
@@ -21,141 +21,99 @@
                  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
                  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
             })();
-        </script>           
+        </script>
     </head>
     <body>
-        <nav class="navbar hetco-nav navbar-fixed-top">
-          <div class="container-fluid">
-              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span> 
-              </button>            
-              <a class="navbar-brand" href="/">Hetco Design</a>
-            </div>
-            <div class="collapse navbar-collapse" id="myNavbar">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="/#recentprojects">Projects</a></li>
-                  <li><a href="/about">About</a></li>
-                  <li><a href="#contactsection">Contact</a></li>
+        <div class="container-fluid">
+            <p class="brandtitle"><a href="/">HETERO COSMICA</a></p>
+        </div>
+        <nav class="navbar hetco-nav">
+            <div class="" id="myNavbar">
+                <ul class="nav navbar-nav navbar-center">
+                    <li><a href="/projects">Projects</a></li>
+                    <li><a href="/about">About Us</a></li>
+                    <li><a href="/ideas">Ideas</a></li>
+                    <li><a href="/tools">Tools</a></li>
+                    <li><a href="/services">Services</a></li>
                 </ul>
             </div>
-          </div>
-        </nav>        
-        <div class="container-fluid">
-            <div class="page">
+        </nav>
+        <div class="container">
+            <div class="content">
                 <div class="row">
                     <div id="projectwellcome" class="projecttitle">
+                        <div class="col-md-6 col-md-offset-6 projectoverview">
+                            <p class="projecttitletext">A blueprint for next-gen open source STEMware</p>
+                            <p class="projectoverviewsub">PARTNER</p>
+                            <p>Wellcome Trust</p>
+                            <p class="projectoverviewsub">LOCATION</p>
+                            <p>London</p>
+                            <p class="projectoverviewsub">CHALLENGE</p>
+                            <p>To define the shared project and tools for an open source community to enable globally impactful innovation with health & science data</p>
+                            <p class="projectoverviewsub">OUTCOME</p>
+                            <p>Lifespan; a global community which empowers healthcare systems to make routinely collected phenotypic data (EHR’s) research and innovation ready, a suite of new educational, legal and software tools</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="content">
+                <div class="row">
+                    <div class="col-md-6 projectassets">
+                        <img src="../../images/projects/wellcome/example.jpg" class="projectimage">
+                        <img src="../../images/projects/wellcome/exec_summary.jpg" class="projectimage">
+                        <img src="../../images/projects/wellcome/r_Make.jpg" class="projectimage">
+                    </div>
+                    <div class="col-md-5">
+                        <p class="subheading">Background</p>
+                        <p>In recent years, the world has witnessed a sea of change in the way health data is used in research. With open source software code on the rise, Wellcome wanted to understand how bio-informaticians, machine learning experts, health innovators and public health experts were currently utilising and contributing to the existing ecosystem. They also sought to identify an intervention focus for a new Wellcome funded open-source community, ideas for software tools and a service design blueprint for this new community.</p>                                
+                        <p class="subheading">Insights</p>
+                        <p class="quote">The notion of a single file, containing “medical records,” is a fiction. Hillary Clinton’s medical records are in bits and pieces, in doctors’ filing cabinets, hospital records departments, and in hard-to-access computers</p> 
+                        <p class="author">M. Sanger-katz in New York Times, Full ‘Medical Records’ for Trump and Clinton? That’s Fiction</p>  
+                        <p>We have found that digitised primary care clinic and hospital records represent the most sustainable collection mechanism which can be enabled for understanding human health, wellbeing, disease progression and clinical deterioration. These records comprise of notes from doctors, lab diagnostics, blood test results, medication prescription and intake histories, family size and medical histories, imaging data, vital stats like blood pressure measurements.</p>
+                        <p>Even though more and more clinics are digitized, this data is not available for research and innovation purposes due to varied socio-technical barriers (like the complexity of anonymisation ), market forces (there are no actual incentives for private EHR companies / medical device manufacturers to build interoperability), legal crossroads (there is a complete lack of clarity on IP rights of hospitals developing data-driven products) and technical barriers (like issues of data completeness, and the statistical complexities of integration of different types of health data).</p>
+                        <p>The good news is that data science has advanced enough that now the technical barriers can be tackled easily. This suggests Wellcome can play an important role in addressing the gap left by market forces by developing open source and interoperable software tools and address the social-technical barriers by developing educational and legal tools.</p>
+                        <p class="subheading">Approach</p>
+                        <p>Our approach started with an analysis of interviews conducted by the Wellcome Team, to understand the known themes and develop a list of possible intervention areas. We then conducted 22 interviews with experts, spending time with them to understand their data pipelines, workflows and toolsets. We shared the intervention areas as provocations when appropriate during the interviews and with every interview added/ merged intervention areas based on our most up to date understanding.</p>
+                        <p>Three weeks into the project we had synthesised 10 intervention areas with accompanying user stories, and identified “10 principles for good open source communities”. There followed co-design sessions with the team using making kits. The resulting three intervention areas and communities were visualised using collages and circulated back to the 22 interviewees for feedback and road mapping. The feedback was freshly analysed to define the shared project for the Wellcome Community, develop a road map for tools and a service design blueprint.</p>
+                        <p class="subheading">Results</p>
+                        <p>At the end of the project, we were able to give Wellcome a vast and multi-faceted understanding of availability and innovation readiness extent of various types of health data & (genomic data, clinical phenotypic data, cellular data, population health data) and identified an intervention area: tools linking together regularly collected clinical phenotypic datasets to make the research and innovation ready (and entirely out-mode longitudinal studies one day), pointed out 6 types of software tools and additional educational and legal tools to tackle the issue of adoption.</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-12">
-                        <p class="herotext">A blueprint for next-gen Open Source STEMware</p>
+                    <div class="col-md-6 projectassets">
+                        <img src="../../images/projects/wellcome/r_Image_.jpg" class="projectimage">
+                        <img src="../../images/projects/wellcome/hero.jpg" class="projectimage">
                     </div>
-                </div> 
+                    <div class="col-md-6 projectassets">
+                        <img src="../../images/projects/wellcome/r_wall_small.jpg" class="projectimage">
+                        <img src="../../images/projects/wellcome/r_methodology_banner.JPG" class="projectimage">
+                    </div>
+                </div>
+            </div> 
+        </div>        
+        <div class="container-fluid">
+            <div class="footer">
                 <div class="row">
-                    <div class="col-md-12">
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Partner</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p class="standardtext projectlongtext">Wellcome Trust</p>
-                            </div>
-                        </div>
+                    <div class="col-md-2 col-md-offset-2">
+                        <p><a href="/about">About Us</a></p>
 
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Locations</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p class="standardtext projectlongtext">London</p>
-                            </div>
-                        </div>
-
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Challenge</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p class="standardtext projectlongtext">To define the shared project and tools for an open source community to enable globally impactful innovation with health & science data</p>
-                            </div>
-                        </div>
-
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Outcome</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p class="standardtext projectlongtext">Lifespan; a global community which empowers healthcare systems to make routinely collected phenotypic data (EHR’s) research and innovation ready, a suite of new educational, legal and software tools</p>
-                            </div>
-                        </div>
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Background</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p class="standardtext projectlongtext ">In recent years, the world has witnessed a sea of change in the way health data is used in research. With open source software code on the rise, Wellcome wanted to understand how bio-informaticians, machine learning experts, health innovators and public health experts were currently utilising and contributing to the existing ecosystem. They also sought to identify an intervention focus for a new Wellcome funded open-source community, ideas for software tools and a service design blueprint for this new community.</p>                                
-                            </div>
-                        </div>
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Insights</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p id="wellcomequote" class="standardtext largequote projectquote">The notion of a single file, containing “medical records,” is a fiction. Hillary Clinton’s medical records are in bits and pieces, in doctors’ filing cabinets, hospital records departments, and in hard-to-access computers</p> 
-
-                                <p class="standardtext author projectauthor projectlongtext">M. Sanger-katz in New York Times, Full ‘Medical Records’ for Trump and Clinton? That’s Fiction</p>  
-
-                                <p class="standardtext projectlongtext">We have found that digitised primary care clinic and hospital records represent the most sustainable collection mechanism which can be enabled for understanding human health, wellbeing, disease progression and clinical deterioration. These records comprise of notes from doctors, lab diagnostics, blood test results, medication prescription and intake histories, family size and medical histories, imaging data, vital stats like blood pressure measurements.</p>
-
-                                <p class="standardtext projectlongtext">Even though more and more clinics are digitized, this data is not available for research and innovation purposes due to varied socio-technical barriers (like the complexity of anonymisation ), market forces (there are no actual incentives for private EHR companies / medical device manufacturers to build interoperability), legal crossroads (there is a complete lack of clarity on IP rights of hospitals developing data-driven products) and technical barriers (like issues of data completeness, and the statistical complexities of integration of different types of health data).</p>
-
-                                <img src="../../images/project/wellcome/wall_small.jpg" class="projectimage projectlongtext">
-
-                                <p class="projectimagecaption projectlongtext">Insight clustering at the Wellcome Trust</p>
-
-                                <p class="standardtext projectlongtext">The good news is that data science has advanced enough that now the technical barriers can be tackled easily. This suggests Wellcome can play an important role in addressing the gap left by market forces by developing open source and interoperable software tools and address the social-technical barriers by developing educational and legal tools.</p>
-                            </div>
-                        </div>
-                        <div class="row projectsection"> 
-                            <div class="col-md-2">
-                                <p class="subheading">Approach</p>
-                            </div>
-                            <div class="col-md-8">
-                                <p class="standardtext projectlongtext">Our approach started with an analysis of interviews conducted by the Wellcome Team, to understand the known themes and develop a list of possible intervention areas. We then conducted 22 interviews with experts, spending time with them to understand their data pipelines, workflows and toolsets. We shared the intervention areas as provocations when appropriate during the interviews and with every interview added/ merged intervention areas based on our most up to date understanding.</p>
-
-                                <p class="standardtext projectlongtext">Three weeks into the project we had synthesised 10 intervention areas with accompanying user stories, and identified “10 principles for good open source communities”. There followed co-design sessions with the team using making kits. The resulting three intervention areas and communities were visualised using collages and circulated back to the 22 interviewees for feedback and road mapping. The feedback was freshly analysed to define the shared project for the Wellcome Community, develop a road map for tools and a service design blueprint.</p>
-
-                                <img src="../../images/project/wellcome/exec_summary.jpg" class="projectimage projectlongtext">
-
-                                <p class="projectimagecaption projectlongtext">Clinical phenotypic data ready for reasearch - A new reality</p>
-                            </div>
-                        </div>
-                        <div class="row projectsection">
-                            <div class="col-md-2">
-                                <p class="subheading">Results</p>
-                            </div>
-                            <div id="wellcome_end" class="col-md-8">
-                                <p class="standardtext projectlongtext">At the end of the project, we were able to give Wellcome a vast and multi-faceted understanding of availability and innovation readiness extent of various types of health data & (genomic data, clinical phenotypic data, cellular data, population health data) and identified an intervention area : tools linking together regularly collected clinical phenotypic datasets to make the research and innovation ready (and entirely out-mode longitudinal studies one day), pointed out 6 types of software tools and additional educational and legal tools to tackle the issue of adoption.</p>
-                            </div>
-                        </div>                                                                    
+                    </div>
+                    <div class="col-md-3">
+                        <p><a href="https://twitter.com/hetcodesign" target="_blank">Twitter</a></p>
+                    </div>
+                    <div class="col-md-3 rightalign">
+                        <p>Makerversity, Somerset House</p>
+                        <p>Strand, London</p>
+                        <p>WC2R 1LA</p>
+                        <p>shruti@hetco.io</p>
                     </div>
                 </div>
-            </div>                        
-            <div class="footer row">
-                <div id="contactsection">
-                    <div class="col-md-6 contact">
-                        <h1>Contact</h1>
-                        <p class="contactlink"><a href="mailto:shruti@hetco.io" target="_blank">shruti@hetco.io</a></p>
+                <div class="row">
+                    <div id="copyright" class="col-md-2 col-md-offset-2">
+                        <p>© Hetco Design 2019</p>
                     </div>
-                    <div class="col-md-6 contact">
-                        <h1>Follow Us</h1>
-                        <p class="contactlink"><a href="https://twitter.com/hetcodesign" target="_blank">@hetcodesign</a></p>
-                    </div>                
-                </div>
-                <div id="copyright">
-                    <p>© Hetco Design 2018</p>
                 </div>
             </div>                                      
         </div>
