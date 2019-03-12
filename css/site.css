@@ -299,6 +299,8 @@ a:hover {
     padding-top:60px;
     padding-left:20px;
     padding-right:20px;
+    margin-left:15px;
+    margin-right:15px;
 }
 
 @media (min-width: 992px){
@@ -326,7 +328,7 @@ a:hover {
 
 .projectimage {
 	width:100%;
-	padding-bottom:20px;
+	padding-bottom:30px;
 }
 
 .projectimagecaption {
