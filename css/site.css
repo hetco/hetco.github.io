@@ -412,3 +412,10 @@ a:hover {
     background-repeat:   no-repeat;
     background-position: center center; 
 }
+
+#projectpatterns {
+    background-image:url('../images/projects/patternslab/DSC04378.jpg');
+    background-size:     cover;
+    background-repeat:   no-repeat;
+    background-position: center center; 
+}
