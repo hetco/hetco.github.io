@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Heterocosmica</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="google-site-verification" content="AcO3sToJF0X1AgkmkIPLLoBDRicVqntT6bBjCXBZhs0" />
+        <link href="https://fonts.googleapis.com/css?family=IBM+Plex+Mono:400,400i|IBM+Plex+Sans+Condensed:400,400i|IBM+Plex+Sans:100,100i,300,400,400i,700,700i|IBM+Plex+Serif:400,400i" rel="stylesheet">
+        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <script   src="https://code.jquery.com/jquery-2.2.3.min.js"   integrity="sha256-a23g1Nt4dtEYOj7bR+vTu7+T8VP13humZFBJNIYoEJo="   crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="patterns.css">
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', 'UA-46399763-1']);
+            _gaq.push(['_trackPageview']);
+
+            (function() {
+                 var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                 ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                 var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div id="headlineimage" class="row">
+                <div id="patterntext" class="col-md-4 col-sm-6">
+                    <h1>Patterns Lab</h1>
+                    <p class="highlight">An easy way to create contemporary functional clothing</p>
+                    <p class="standardtext">Ready to assemble clothing, cut perfectly to your size in central London. Delivered directly through your letterbox in a fabric of your choice, complete with simplified sowing instructions.</p>
+                    <p class="call">Make it your way. Launching soon! Sign up for your introductory offer</p>
+                    <button id="order" class="btn">Sign up</button>
+                    <iframe id="signup" style="display:none;" src="https://docs.google.com/forms/d/e/1FAIpQLSdkYjWJpuwm7QCuzNd2Z6MP0MnqMXOcjV7BdsCPvBcEibcVvQ/viewform?embedded=true" width="640" height="665" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+                </div>
+            </div>
+        </div>
+        <script>
+            $('#order').on('click',function(){
+                $('#order').hide();
+                $('#signup').show();
+            });
+        </script>
+    </body>
+</html>
